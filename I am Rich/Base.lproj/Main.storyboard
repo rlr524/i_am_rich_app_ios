@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,35 +12,41 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_am_Rich" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Rich!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdW-PA-vOg">
-                                <rect key="frame" x="118" y="199" width="178" height="45.5"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="39"/>
-                                <color key="textColor" red="1" green="0.87450980392156863" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Rich!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0T-2P-IYa">
+                                <rect key="frame" x="93" y="190" width="189" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="wjY-cL-Jc1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="42"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diamond-2" translatesAutoresizingMaskIntoConstraints="NO" id="h77-T3-09z">
-                                <rect key="frame" x="72" y="313" width="270" height="270"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="i_am_rich_icon-2" translatesAutoresizingMaskIntoConstraints="NO" id="h77-T3-09z">
+                                <rect key="frame" x="52" y="305" width="271" height="270"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.19215686274509802" green="0.35686274509803922" blue="0.58823529411764708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.92941176470588238" green="0.96862745098039216" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="hdW-PA-vOg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1gh-nw-YkU"/>
-                            <constraint firstItem="hdW-PA-vOg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="I7Y-OT-Wrq"/>
-                            <constraint firstItem="hdW-PA-vOg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="155" id="dte-X8-38l"/>
+                            <constraint firstItem="h77-T3-09z" firstAttribute="top" secondItem="W0T-2P-IYa" secondAttribute="bottom" constant="66" id="Rtw-ba-acp"/>
+                            <constraint firstItem="h77-T3-09z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="S1W-QS-mNQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="h77-T3-09z" secondAttribute="bottom" constant="203" id="Tla-tb-dBH"/>
+                            <constraint firstItem="W0T-2P-IYa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="93" id="VK6-uY-mVz"/>
+                            <constraint firstItem="W0T-2P-IYa" firstAttribute="centerX" secondItem="h77-T3-09z" secondAttribute="centerX" id="Xnq-CS-nUk"/>
+                            <constraint firstItem="W0T-2P-IYa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jxo-hh-4zG"/>
+                            <constraint firstItem="W0T-2P-IYa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="146" id="lom-ad-QK6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="139"/>
+            <point key="canvasLocation" x="138.40000000000001" y="138.91625615763547"/>
         </scene>
     </scenes>
     <resources>
-        <image name="diamond-2" width="343" height="251"/>
+        <image name="i_am_rich_icon-2" width="1024" height="1024"/>
     </resources>
 </document>
